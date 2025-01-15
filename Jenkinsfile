@@ -37,6 +37,6 @@ pipeline {
     }
 
     tools {
-        nodejs "DemoPipeLine"
+        nodejs "test ci cd"
     }
 }
