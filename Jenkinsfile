@@ -1,8 +1,5 @@
 pipeline {
-    
-    agent {
-        label 'nodejs'
-    }
+    agent any
 
     stages {
         stage('Install Packages') {
@@ -38,7 +35,5 @@ pipeline {
             }
         }
     }
-    tools {
-        nodejs "nodejs"
-    }
+    
 }
