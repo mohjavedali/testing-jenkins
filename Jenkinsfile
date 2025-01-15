@@ -37,7 +37,6 @@ pipeline {
     }
 
     tools {
-        nodejs "DemoPipeLine
-"
+        nodejs "DemoPipeLine"
     }
 }
